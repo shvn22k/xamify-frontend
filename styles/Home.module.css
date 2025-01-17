@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background-image: linear-gradient(to right, darkgreen 1px, transparent 1px),
+                      linear-gradient(to bottom, darkgreen 1px, transparent 1px);
+    background-size: 20px 20px; /* Adjust grid size */
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.instructions {
+    margin-right: 20px;
+}
+
+.inputSection {
+    margin-left: 20px;
+}
+
+.button {
+    background-color: white;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 100, 0, 0.5); /* Green shadow */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.loading {
+    margin-top: 10px;
+}
+
+.results {
+    margin-top: 20px;
+} 

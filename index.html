@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Xamify</title>
+</head>
+<body>
+    <div class="header">
+        <h1 id="title">Xamify</h1>
+        <p id="tagline">Your tagline here...</p> <!-- Placeholder for tagline -->
+    </div>
+    <div class="container">
+        <div class="column" id="instructions">
+            <h2>Instructions</h2>
+            <ul>
+                <li>Instruction 1</li>
+                <li>Instruction 2</li>
+                <li>Instruction 3</li>
+                <li>Instruction 4</li>
+            </ul>
+        </div>
+        <div class="column" id="input-section">
+            <h2>API Key Input</h2>
+            <input type="text" id="api-key" placeholder="Enter your Groq API Key" />
+            <div id="upload-options" style="display: none;">
+                <h3>Syllabus Upload</h3>
+                <input type="file" id="syllabus-upload" />
+                <h3>PYQs Upload</h3>
+                <input type="file" id="pyqs-upload" />
+            </div>
+            <button class="button" id="run-analysis">Run Analysis</button>
+            <div id="loading-animation" style="display: none;">Loading...</div>
+            <div id="results"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

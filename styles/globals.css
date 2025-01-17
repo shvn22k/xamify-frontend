@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  background: white;
+  background-image: 
+    repeating-linear-gradient(0deg, green 0px, green 1px, transparent 1px, transparent 50px), /* Vertical lines */
+    repeating-linear-gradient(-90deg, green 0px, green 1px, transparent 1px, transparent 50px); /* Horizontal lines */
+  background-size: 100px 100px; /* Larger grid squares */
+  animation: backgroundAnimation 10s infinite alternate;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-white {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.bg-white:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes backgroundAnimation {
+    0% { background-color: #ffffff; }
+    50% { background-color: #f9f9f9; }
+    100% { background-color: #ffffff; }
+}

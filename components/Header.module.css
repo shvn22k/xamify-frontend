@@ -1,0 +1,14 @@
+.headerContainer {
+    text-align: center;
+    margin: 20px;
+}
+
+.headerContainer h1 {
+    font-size: 36px;
+    color: darkgreen;
+}
+
+.headerContainer p {
+    font-size: 18px;
+    color: gray;
+} 
