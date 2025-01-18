@@ -14,7 +14,7 @@ const Instructions = () => {
                 <li>Step 2: Upload your syllabus PDF.</li>
                 <li>Step 3: Upload past question papers (2-4).</li>
                 <li>Step 4: Run analysis and view results!</li>
-                <li>Sample pdfs: <a href="https://drive.google.com/drive/folders/1zsIkWRVqH-YUBVudCZWOC06tQqsOU6kf?usp=sharing">drive link</a></li>
+                <li>Sample pdfs: <a href="https://drive.google.com/drive/folders/1zsIkWRVqH-YUBVudCZWOC06tQqsOU6kf?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">drive link</a> </li>
             </ul>
         </div>
     );
